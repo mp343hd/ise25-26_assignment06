@@ -70,6 +70,7 @@ public class PosController {
                     @ApiResponse(
                             responseCode = "404",
                             content = @Content(
+                                
                                     mediaType = "application/json",
                                     schema = @Schema(implementation = ErrorResponse.class)
                             ),
